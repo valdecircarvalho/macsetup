@@ -3,8 +3,6 @@
 # display commands - useful for debugging.
 set -x
 
-clear
-
 # download bootstrap files
 
 
