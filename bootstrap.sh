@@ -17,6 +17,6 @@ bash $HOME/bootstrap/install.sh
 echo "finalizando instalação - install.sh"
 
 echo "inicializando configuração preferences - preferences.sh"
-#sh $HOME/bootstrap/preferences.sh
+#bash $HOME/bootstrap/preferences.sh
 echo "finializando configuração preferences - preferences.sh"
 
