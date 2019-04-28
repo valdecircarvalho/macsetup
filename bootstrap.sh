@@ -9,4 +9,6 @@ clear
 
 mkdir $HOME/bootstrap
 
-bash <(curl -d )
+bash <(curl -s https://github.com/valdecircarvalho/macsetup/blob/master/bootstrap.sh -o $HOME/bootstrap/bootstrap.sh)
+
+chmod +x $HOME/bootstrap/bootstrap.sh
