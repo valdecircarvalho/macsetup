@@ -1,0 +1,5 @@
+cakebrew
+crunch
+font-hack-nerd-font
+macdown
+mtmr
