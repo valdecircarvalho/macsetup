@@ -3,8 +3,6 @@
 # display commands - useful for debugging.
 set -x
 
-clear
-
 ## Setup default directories
 echo "Creating default directories..."
     mkdir $HOME/gits
