@@ -7,8 +7,7 @@ clear
 
 # download bootstrap files
 
-mkdir $HOME/bootstrap
 
-bash <(curl -s https://github.com/valdecircarvalho/macsetup/blob/master/bootstrap.sh -o $HOME/bootstrap/bootstrap.sh)
+bash <(curl -s https://github.com/valdecircarvalho/macsetup/blob/master/install.sh -o $HOME/bootstrap/install.sh)
 
-chmod +x $HOME/bootstrap/bootstrap.sh
+chmod +x $HOME/bootstrap/*.sh
