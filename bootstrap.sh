@@ -7,7 +7,7 @@ set -x
 
 curl -s https://github.com/valdecircarvalho/macsetup/blob/master/install.sh -o $HOME/bootstrap/install.sh
 
-chmod +x $HOME/bootstrap/*.sh
+chmod +x $HOME/bootstrap/install.sh
 
 echo "inicializando instalação - install.sh"
 sh $HOME/bootstrap/install.sh
