@@ -10,7 +10,7 @@ rm -rfv  $HOME/virtualmachines
 rm -rfv  $HOME/dockerhd
 rm -rfv  $HOME/temp
 rm -rfv  $HOME/dotfiles
-
+rm -rfv  $HOME/bootstrap
 ## Uninstall Homebrew
 
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"

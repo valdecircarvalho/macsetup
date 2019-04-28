@@ -13,21 +13,15 @@ echo "Creating default directories..."
     mkdir $HOME/temp
     mkdir $HOME/dotfiles
 
-## Configure MacOS Settings
-echo "Configuring default macOS settings..."
-
-## sh ./preferences.sh
-
 
 ## Install xcode tools
-#echo "Installing Xcode Tools..."
-
-#$ xcode-select --install
+echo "Installing Xcode Tools..."
+     xcode-select --install
 
 
 ## Install Homebrew
 echo "Installing Homebrew..."
 
-##     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+sh #HOME/bootstrap/homebrew.sh
 
 
