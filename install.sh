@@ -18,7 +18,7 @@ echo "Creating default directories..."
 ## Configure MacOS Settings
 echo "Configuring default macOS settings..."
 
-sh ./preferences.sh
+## sh ./preferences.sh
 
 
 ## Install xcode tools
@@ -30,6 +30,6 @@ sh ./preferences.sh
 ## Install Homebrew
 echo "Installing Homebrew..."
 
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+##     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 
