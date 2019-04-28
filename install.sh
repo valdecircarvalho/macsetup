@@ -22,6 +22,6 @@ echo "Installing Xcode Tools..."
 ## Install Homebrew
 echo "Installing Homebrew..."
 
-sh $HOME/bootstrap/homebrew.sh
+bash $HOME/bootstrap/homebrew.sh
 
 

@@ -13,7 +13,7 @@ chmod +x $HOME/bootstrap/*.sh
 
 
 echo "inicializando instalação - install.sh"
-sh $HOME/bootstrap/install.sh
+bash $HOME/bootstrap/install.sh
 echo "finalizando instalação - install.sh"
 
 echo "inicializando configuração preferences - preferences.sh"
