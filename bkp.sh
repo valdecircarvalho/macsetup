@@ -1,0 +1,10 @@
+.aws
+.azure
+.git
+.iterm2
+.local
+.oh-my-zsh
+.RSA
+.ssh
+.vscode
+.zsh
