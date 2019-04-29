@@ -5,19 +5,25 @@ set -x
 
 ## Setup default directories
 echo "Creating default directories..."
-    mkdir $HOME/gits
-    mkdir $HOME/scripts
-    mkdir $HOME/utils
-    mkdir $HOME/virtualmachines
-    mkdir $HOME/dockerhd
-    mkdir $HOME/temp
-    mkdir $HOME/dotfiles
-
+    mkdir -p $HOME/gits
+    mkdir -p $HOME/scripts
+    mkdir -p $HOME/utils
+    mkdir -p $HOME/virtualmachines
+    mkdir -p $HOME/dockerhd
+    mkdir -p $HOME/temp
+    mkdir -p $HOME/dotfiles
 
 ## Install xcode tools
 echo "Installing Xcode Tools..."
-     xcode-select --install
 
+if which xcode-selec > /dev/null; then
+    echo xcode tools already installed...
+else
+    echo xcode tools not installed...
+    echo installing xcode-select
+    xcode-select --install
+
+fi
 
 ## Install Homebrew
 echo "Installing Homebrew..."
